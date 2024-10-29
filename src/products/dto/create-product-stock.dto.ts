@@ -15,7 +15,7 @@ export class ProductStockDto {
     description: 'Number of units in stock',
     nullable: false,
     minimum: 0,
-    example: '500',
+    example: 500,
   })
   @Min(0)
   @IsInt()

@@ -15,7 +15,7 @@ export class ProductSalesDto {
     description: 'Number of units sold',
     nullable: false,
     minimum: 0,
-    example: '100000',
+    example: 100000,
   })
   @Min(0)
   @IsInt()
