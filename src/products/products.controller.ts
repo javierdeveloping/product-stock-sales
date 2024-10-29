@@ -2,7 +2,7 @@ import { Body, Controller, Post } from '@nestjs/common';
 import { SortProductsDto } from './dto/sort-products.dto';
 import { ProductsService } from './products.service';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { APPLICATION_API_TAGS } from 'src/swagger.config';
+import { APPLICATION_API_TAGS } from '../swagger.config';
 import { ProductSalesDto } from './dto/create-product-sales.dto';
 
 @ApiTags(APPLICATION_API_TAGS.PRODUCTS)
