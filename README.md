@@ -31,6 +31,6 @@ npm run start:dev
 
 5. Go to the following link:
 
-http://localhost:(your port)/api
+http:// localhost: (your port) /api
 
 6. It will show a swagger UI you can use to test the application
