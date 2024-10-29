@@ -20,6 +20,7 @@ export class ProductsController {
     description: 'Ordered list of products',
     type: ProductSalesDto['productId'],
   })
+  @ApiResponse({ status: 400, description: 'Bad request' })
   @Post('sort-products')
   sort(@Body() sortProductsDto: SortProductsDto) {
     return this.productsService.sort(sortProductsDto);
