@@ -13,7 +13,7 @@ export class ProductsController {
   @ApiOperation({
     summary: 'Insert a list of sales weight, stock weight and products',
     description:
-      'This endpoint creates a new protected with the provided details. Required user role: admin',
+      'This endpoint returns an ordered list of product ids based on weights and stock and sales data',
   })
   @ApiResponse({
     status: 200,
